@@ -6,7 +6,7 @@ This repository contains some demo and helper notebooks for MIRI LRS data proces
 
 Extracted data products in MAST are sometimes of poor quality due to sensitivity of the pipeline algorithm to coordinate regisration issues. The following can help you work around this:
 
-* Notebook ``LRS_PointSource_Slit_Reduction.ipynb`` goes through stage 2 and stage 3 pipeline processing, including extraction, for a demo LRS slit observation, to show how to get science-ready extracted products.
+* Notebook ``LRS_PointSource_Slit_Reduction.ipynb`` goes through stage 2 and stage 3 pipeline processing, including extraction, for a demo LRS slit observation, to show how to get science-ready extracted products. Test data can be retrieved from [this Box folder](https://stsci.box.com/s/i2xi18jziu1iawpkom0z2r94kvf9n9kb).
 * Script ``miri_lrs_extract_L3.py`` is an abbreviated version of the notebook, providing a simple script that takes a Level 3 s2d file as input, and returns an extracted spectrum with appropriate extraction limits set.
 
 The repository contains the parameter reference file that is passed to the ``extract_1d`` step in both th enotebook and the script. This can be edited to suit your needs in any text editor.

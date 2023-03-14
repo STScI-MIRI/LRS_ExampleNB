@@ -3,11 +3,9 @@ import matplotlib.pyplot as plt
 
 from jwst.extract_1d import Extract1dStep
 from jwst import datamodels
-from jwst.associations.lib.rules_level3_base import DMS_Level3_Base
-from jwst.associations.asn_from_list import asn_from_list
 
 
-#
+# Th
 
 def extract_spectrum(s2dfile, parfile, plot):
 
