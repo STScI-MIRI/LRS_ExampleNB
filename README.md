@@ -1,4 +1,4 @@
-# LRS_ExampleNB
+# MIRI LRS Example Notebooks and Scripts
 
 This repository contains some demo and helper notebooks for MIRI LRS data processing. We focus especially on cases where the JWST pipeline has bugs or needs improvements; while we work to resolve those, the resources here can hopefully help you work through them.
 
