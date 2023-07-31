@@ -1,6 +1,21 @@
 # MIRI LRS Example Notebooks and Scripts
 
-This repository contains some demo and helper notebooks for MIRI LRS data processing. We focus especially on ways the JWST calibration pipeline can be improved from the automated default options, or requires a workaround for optimal results. 
+This repository contains some demo and helper notebooks for MIRI LRS data processing. We focus especially on ways the JWST calibration pipeline can be improved from the automated default options, or requires a workaround for optimal results.
+
+
+## General JWST calibration pipeline help
+
+For general help on how to install and run the [JWST calibration pipeline](https://www.github.com/spacetelescope/jwst), you can check out [STScI's JWebbinar materials](https://www.stsci.edu/jwst/science-execution/jwebbinars), which includes notebooks and instructional videos. Of particular interest for MIRI LRS are:
+
+* JWebbinar 1: Pipeline Information and Data Products
+* JWebbinar 4: Pipeline: Spectroscopic Mode
+* JWebbinar 11: Time-series observations
+* JWebbinar 16: JWST Time Series Observations: Performance and Caveats (*)
+* JWebbinar 18: JWST Pipeline refresher (*)
+* JWebbinar 22: NIRSpec and MIRI: Lessons Learned from Commissioning (*)
+
+Those labelled (*) were presented post-commissioning so include more up-to-date information than the pre-launch tutorials. 
+
 
 ## Spectral Extraction
 
