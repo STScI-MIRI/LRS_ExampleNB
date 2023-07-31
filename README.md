@@ -1,12 +1,12 @@
 # MIRI LRS Example Notebooks and Scripts
 
-This repository contains some demo and helper notebooks for MIRI LRS data processing. We focus especially on cases where the JWST pipeline has bugs or needs improvements; while we work to resolve those, the resources here can hopefully help you work through them.
+This repository contains some demo and helper notebooks for MIRI LRS data processing. We focus especially on ways the JWST calibration pipeline can be improved from the automated default options, or requires a workaround for optimal results. 
 
 ## Spectral Extraction
 
 Spectral extraction is the step that most often requires some manual reprocessing for LRS data. We include here some notebooks to help understand the capabilities of the pipeline and how to use them.
 
-* miri_lrs_pipeline_extraction.ipynb: this notebook illustrates the spectral extraction capabilities of the JWST calibration pipeline for LRS data, beyond the simple fixed-width aperture method that is used for the automated processing. Test data can be retrieved from [this Box folder](https://stsci.box.com/s/i2xi18jziu1iawpkom0z2r94kvf9n9kb).
+* ``miri_lrs_pipeline_extraction.ipynb``: this notebook illustrates the spectral extraction capabilities of the JWST calibration pipeline for LRS data, beyond the simple fixed-width aperture method that is used for the automated processing. Test data can be retrieved from [this Box folder](https://stsci.box.com/s/i2xi18jziu1iawpkom0z2r94kvf9n9kb).
 
 Prior to May 2023 (CRDS context < 1089.pmap), the calibration pipeline used a sub-optimal method to locate the target in the aperture for spectral extraction, which often misplaced the extraction aperture. As a result, the extracted products (the x1d files) in MAST were often of poor quality. We produced a notebook and script to demonstrate how to work around this problem. As of CRDS context 1089.pmap, implemented in May 2023, this workaround has become the default method for automated processing, effectively resolving the issue. The following products are still available:
 
