@@ -16,6 +16,10 @@ For general help on how to install and run the [JWST calibration pipeline](https
 
 Those labelled (*) were presented post-commissioning so include more up-to-date information than the pre-launch tutorials. 
 
+## End to End pipeline demos
+
+Notebook ``miri_lrs_slit_end2end.ipynb`` contains a demo of how to run LRS slit data through the Spec2 and Spec3 pipelines, with default settings. We provide some suggestions for enhancements and modifications, but refer to step-specific notebooks for demonstrations of some of those. Test data can be retrieved from [this Box folder](https://stsci.box.com/s/i2xi18jziu1iawpkom0z2r94kvf9n9kb), or the user can substitute their files. 
+
 
 ## Spectral Extraction
 
