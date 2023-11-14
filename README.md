@@ -41,4 +41,4 @@ Script usage:
 
 If you have questions or would like to see additional notebooks here for MIRI LRS, please contact us [via the Helpdesk](https://jwsthelp.stsci.edu)!
 
--- the MIRI LRS team, July 2023
+-- the MIRI LRS team, Last updated: Nov 2023
